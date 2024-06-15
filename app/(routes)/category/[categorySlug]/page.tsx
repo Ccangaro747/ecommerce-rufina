@@ -18,7 +18,7 @@ console.log(result)
         <>
         <div className="max-w-6xl py-4 mx-auto sm:py-16 sm:px-24">
             {result != null && !loading && (
-                <h1 className="text-3xl font-medium">Indumentaria {result[0].attributes.category.data.attributes.categoryName}</h1>
+                <h1 className="text-3xl font-medium"> {result[0].attributes.category.data.attributes.categoryName}</h1>
             )}
             <Separator />
             <div className="sm:flex sm:justify-between">
